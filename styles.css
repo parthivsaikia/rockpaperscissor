@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "JacquardaBastarda"; /* Replace with your actual font name */
+    src: url("JacquardaBastarda9-Regular.ttf") format("ttf"), /* Preferred format */
+         /* url("JacquardaBastarda9-Regular.ttf") format("ttf"); Fallback format (optional) */
+  }
+  
+
+body{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+img{
+    height: 400px;
+    width: auto;
+    border-radius: 500px;
+    padding: 40px;
+    margin: 50px 0px;
+}
+
+.Welcome ,.photo, .welcome1{
+    font-family: "Honk", system-ui;
+    font-size: 100px;
+}
+
+.playdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    background-color: #EED3D9;
+    height: 180px;
+    padding: 0px 30px;
+    border-radius: 50px;
+    
+}
+
+.gamephoto{
+    height: 150px;
+    margin-left:30 px;
+    padding: 30px;
+    border-radius:50% ;
+}
+
+.first-div{
+    background-color: #B5C0D0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 3000px;
+}
+
+.playdiv :hover{
+    background-color: pink;
+    transition: 1s;
+
+}
+
+.photo :hover{
+    background-color: aqua;
+}
+
+.playbtn{
+    border-color: pink;
+    color: aquamarine;
+    border-radius: 50px;
+    border-width: 50px ;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: "Honk", system-ui;
+    font-size: 30px;
+}
+
+.second-div{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("images/photo1.jpeg"); */
+    width: 2000px;
+    align-items: center;
+    background-color: aqua;
+}
+
+.second-div :hover{
+    background-color: blue;
+}
