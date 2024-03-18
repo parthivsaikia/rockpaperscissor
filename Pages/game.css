@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'InfoFont';
+    src: url('Wallpoet-Regular.ttf') format('woff2'),
+         url('Wallpoet-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'btnFont';
+    src: url('JacquardaBastarda9-Regular.ttf') format('woff2'),
+         url('JacquardaBastarda9-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.movesLeft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    align-items:center;
+
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result button{
+    height: 60px;
+    width: 120px;
+}
+
+
+.firstpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2000px;
+    height: 300px;
+    background-color: #222831;
+    color: aqua;
+    font-size: 40px;
+    font-family: 'InfoFont',serif;
+    justify-content: space-evenly;
+}
+
+.secondpart{
+    display: flex;
+    justify-content: space-around;
+    background-color: #393E46;
+    height: 450px;
+    width: 2000px;
+    flex-grow: 1;
+    align-items: center;
+    /* border-width:20px ; */
+    
+}
+
+.thirdpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #00ADB5;
+    font-size: 40px;
+    font-family: 'InfoFont',serif;
+    align-items: center;
+    background-color: #BBE1FA;
+}
+
+button{
+    height: 45px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: FFE2E2;
+    border: 3px solid pink;
+    font-size:large;
+    font-weight: 600;
+    color: goldenrod;
+    cursor: pointer;
+    font-family: 'btnFont',serif;
+}
+
+.rockbtn, .paperbtn, .scissorbtn{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    /* align-content: center; */
+    height: 420px;
+    width: 420px;
+    background-color: #00ADB5;
+    border-radius: 50%;
+}
+
+img{
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    height: 250px;
+    width: auto;
+    margin-top: 30px;
+    border: 15px solid #EEEEEE;
+}
